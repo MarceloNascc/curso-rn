@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "db": "json-server -w db.json",
+    "db": "json-server --watch db.json --port $PORT",
     "tunnel": "ngrok http 3000"
   },
   "keywords": [],
